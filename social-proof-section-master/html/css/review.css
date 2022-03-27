@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'Spartan', sans-serif;;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 80px 130px;
+}
+
+.flex-up{
+    display: flex;
+    color: hsl(300, 43%, 22%);
+    height: 50%;
+    margin-bottom: 50px;
+}
+
+.flex-down{
+    display: flex;
+    color: hsl(0, 0%, 100%);
+   width: 100%;
+}
+
+.one, .two, .three{
+    display: flex;
+    color: white;
+    margin-bottom: 30px;
+
+}
+.review{
+    position: relative;
+    width: 30%;
+    left: 30px;
+}
+
+.review1, .review2, .review3{
+    display: flex;
+    width: 75%;
+    background-color:  hsl(300, 24%, 96%);
+    margin: 12px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.review2{
+    position: relative;
+    left: 25px;
+}
+
+.review3{
+    position: relative;
+    left: 50px;
+}
+.left, .right{
+    width: 50%;
+}
+
+.right{
+    margin-left: 5px;
+}
+
+.right p {
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.flex-down1, .flex-down2, .flex-down3{
+    padding: 20px 12px 20px 25px;
+    margin: 12px 14px;
+    background-color: hsl(300, 43%, 22%);
+    width: 30%;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow: 1px -1px 8px rgb(202, 196, 196);
+}
+
+.article p{
+    margin-top: 10px;
+}
+.article, .review{
+    width: 50%;
+}
+
+.pic{
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+.pic img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+h3{
+    font-size: .7rem;
+}
+
+.title{ margin-top: 4px;
+}
+.paragraph p{
+    font-size:  .6rem;
+    
+}
+
+.flex-down2{
+    position: relative;
+    top: 20px;
+}
+.flex-down3{
+    position: relative;
+    top: 40px;
+}
+span{
+    color: hsl(333, 80%, 67%);
+    opacity: .5;
+}
